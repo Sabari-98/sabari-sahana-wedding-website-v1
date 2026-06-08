@@ -45,7 +45,7 @@ export default function AdminEventsPage() {
     await fetch('/api/admin/events', {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id: evtId, ...events[evtId] }),
+      body: JSON.stringify({ ...events[evtId], id: evtId }),
     })
     setSaving(null)
     setSaved(evtId)
