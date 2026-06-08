@@ -1,7 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { useAdminAuth, AdminLogin } from '../../components/AdminLayout'
-import '../../../styles/globals.css'
 
 export default function AdminIndex() {
   const { authed } = useAdminAuth()
