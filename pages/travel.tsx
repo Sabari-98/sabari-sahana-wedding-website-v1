@@ -4,8 +4,8 @@ import { KolamBg } from '../components/Kolam'
 interface Config { [key: string]: string }
 
 export default function TravelPage({ config = {} }: { config: Config }) {
-  const name1 = config.couple_name_1 || 'Priya'
-  const name2 = config.couple_name_2 || 'Arjun'
+  const name1 = config.couple_name_1 || 'Sahana'
+  const name2 = config.couple_name_2 || 'Sabari'
   const content = config.travel_content || 'Add travel and accommodation information here.'
   const paragraphs = content.split('\n').filter(Boolean)
 
