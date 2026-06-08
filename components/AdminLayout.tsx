@@ -36,6 +36,7 @@ export function useAdminAuth() {
 const NAV_ITEMS = [
   { href: '/admin', label: 'Dashboard' },
   { href: '/admin/guests', label: 'Guests' },
+  { href: '/admin/family', label: 'Families' },
   { href: '/admin/events', label: 'Events' },
   { href: '/admin/rsvps', label: 'RSVPs' },
   { href: '/admin/content', label: 'Content' },
