@@ -5,8 +5,8 @@ import { useState } from 'react'
 interface Config { [key: string]: string }
 
 export default function FAQPage({ config = {} }: { config: Config }) {
-  const name1 = config.couple_name_1 || 'Priya'
-  const name2 = config.couple_name_2 || 'Arjun'
+  const name1 = config.couple_name_1 || 'Sahana'
+  const name2 = config.couple_name_2 || 'Sabari'
   const [open, setOpen] = useState<number | null>(0)
 
   let faqs: { q: string; a: string }[] = []
