@@ -61,7 +61,7 @@ export default function FAQPage({ config = {} }: { config: Config }) {
             <p style={{ color: 'var(--color-muted)', fontSize: 14, marginBottom: 16 }}>
               Reach out and we'll be happy to help.
             </p>
-            <a href={`mailto:${config.contact_email || 'hello@example.com'}`} className="btn btn-outline">
+            <a href={`mailto:${config.contact_email || 'sahanasabari320@gmail.com'}`} className="btn btn-outline">
               Get in Touch
             </a>
           </div>
