@@ -78,8 +78,8 @@ export default function ContentPage() {
           {section === 'general' && (
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
               {[
-                { key: 'couple_name_1', label: 'Name 1 (e.g. Priya)' },
-                { key: 'couple_name_2', label: 'Name 2 (e.g. Arjun)' },
+                { key: 'couple_name_1', label: 'Name 1 (e.g. Sahana)' },
+                { key: 'couple_name_2', label: 'Name 2 (e.g. Sabari)' },
                 { key: 'wedding_date', label: 'Wedding Date', type: 'date' },
                 { key: 'contact_email', label: 'Contact Email' },
                 { key: 'site_password', label: 'Guest Site Password' },
