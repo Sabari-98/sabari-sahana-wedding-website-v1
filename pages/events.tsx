@@ -148,6 +148,8 @@ function hexToRgb(hex: string) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const { data } = await supabase.from('events').select('*').order('id')
-  return { props: { events: data || [] } }
+  const ORDER = ['haldi', 'sangeet', 'ceremony', 'reception']
+  const { data } = await supabase.from('events').select('*')
+  const sorted = ORDER.map(id => (data || []).find((e: any) => e.id === id)).filter(Boolean)
+return { props: { events: sorted } }
 }
